@@ -1,7 +1,7 @@
 {
   "name": "api-rest",
   "version": "1.0.0",
-  "description": "Proyecto de API RESTFULL con Node.js y Express",
+  "description": "Proyecto de API RESTful con Node.js y Express",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
