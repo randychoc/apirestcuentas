@@ -1,22 +1,23 @@
 {
   "name": "api-rest",
-  "version": "1.0.0",
-  "description": "Proyecto de API RESTful con Node.js y Express",
+  "version": "2.0.0",
+  "description": "Proyecto de API RESTful con NodeJS, Express y MongoDB",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
     "start": "node index.js"
   },
-  "author": "Randy Choc (@randy.team)",
+  "author": "randychoc.com",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongoose": "^5.9.21"
+    "mongoose": "^5.12.12"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.7",
+    "npm-check-updates": "^11.6.0"
   }
 }

@@ -23,10 +23,9 @@ function getCuentas(req, res) {
 }
 
 function saveCuenta(req, res) {
-    console.log('POST /api/cuentas')
-    console.log(req.body)
+    // console.log('POST /api/cuentas')
+    // console.log(req.body)
     // res.status(200).send({ msg: "Producto Ingresado Correctamente!" })
-
     // Hemos creado un producto y añadido las propiedades
     let cuenta = new Cuenta()
     cuenta.user = req.body.user
